@@ -1,0 +1,48 @@
+body{color:#333; font-family: "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif; font-size:12px; font-weight:normal; line-height:18px;}
+
+h1{color:#000; font-size:24px; line-height:27px; margin-bottom:36px;}
+#content h1:first-child{margin-top:0;}
+h1 span{display:block; font-size:14px; font-weight:normal; line-height:16px; margin-top:9px;}
+h2{border-bottom:1px solid #666; color:#000; font-size:18px; line-height:18px; margin-top:36px; padding-bottom:8px;}
+h3{border-bottom:1px dotted #999; color:#000; font-size:16px; margin-top:27px; padding-bottom:8px;}
+h4{color:#000; font-size:14px; margin-top:18px;}
+h5{color:#000; font-size:12px; margin-top:18px;}
+h6{color:#000; font-size:12px; margin-top:18px;}
+
+a{color: #006fce;}
+a img{border:0;}
+a.top{font-size:10px;}
+
+:target{background:#fffabb; padding:0 9px;}
+:target:before{content: "→ ";}
+
+pre code,
+pre kbd{background:#f2f2f2; border:1px solid #ccc; display:block; padding:8px 10px;}
+code, kbd, samp{font-size:11px;}
+
+dt{clear:left; float:left; font-weight:bold; margin-right:5px;}
+
+del{opacity:.5; text-decoration: line-through;}
+ins{}
+
+#doc{margin:36px auto; width:918px;}
+#content{float:right; width:658px;}
+#sub-content{float:left; width:242px;}
+
+.screenshots{margin:0; padding:0;}
+.screenshots li{list-style-type:none; margin:0 18px 0 0; padding:0; text-align:center; height:235px;}
+.screenshots a{text-decoration:none;}
+.screenshots .img{border:1px solid #006fce; display:block; height:190px; margin-bottom:9px; overflow:hidden; width:190px;}
+.screenshots br{display:none;}
+
+.figure-a{float:left;}
+
+#toc ul, #toc li{margin:0; padding:0; list-style-type:none;}
+#toc li{font-weight:bold;}
+#toc li li{font-weight:normal; font-size:11px; margin-left:18px;}
+.toc-header{padding-right:36px; position:relative;}
+.toc-header .top{margin-top:-9px; position:absolute; right:0; top:50%;}
+
+.clear:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; } 
+* html .clear{height: 1%;}
+* > html .clear{display:inline-block;}
