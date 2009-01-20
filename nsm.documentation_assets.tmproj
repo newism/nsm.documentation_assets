@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>../nsm.documentation_assets/css/core.css</string>
+	<string>css/screen.css</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -21,12 +21,26 @@
 	<integer>200</integer>
 	<key>metaData</key>
 	<dict>
-		<key>../nsm.documentation_assets/css/core.css</key>
+		<key>css/core.css</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>82</integer>
+				<key>line</key>
+				<integer>22</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>-1</integer>
+		</dict>
+		<key>css/screen.css</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>21</integer>
 				<key>line</key>
 				<integer>0</integer>
 			</dict>
@@ -38,7 +52,8 @@
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>../nsm.documentation_assets/css/core.css</string>
+		<string>css/screen.css</string>
+		<string>css/core.css</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<false/>
@@ -59,10 +74,17 @@
 					<key>subItems</key>
 					<dict/>
 				</dict>
+				<key>img</key>
+				<dict>
+					<key>isExpanded</key>
+					<true/>
+					<key>subItems</key>
+					<dict/>
+				</dict>
 			</dict>
 		</dict>
 	</dict>
 	<key>windowFrame</key>
-	<string>{{502, 61}, {1451, 1117}}</string>
+	<string>{{822, 61}, {1451, 1117}}</string>
 </dict>
 </plist>
